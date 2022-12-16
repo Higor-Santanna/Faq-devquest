@@ -1,0 +1,133 @@
+@media(max-width: 850px){
+    .acordeon{
+        width: 555px;
+    }
+
+    .acordeon .faq-imagem{
+        position: absolute;
+        left: -70px;
+        width: 257px;
+    }
+
+    .linha img{
+        width: 300px;
+    }
+}
+
+@media(max-width: 705px){
+    .acordeon{
+        width: 405px;
+    }
+
+    .linha img{
+        width: 150px;
+    }
+}
+
+@media(max-width: 540px){
+    .acordeon .faq-imagem{
+        width: 160px;
+        top: -115px;
+        left: 123px;
+    }
+
+    .acordeon .faq-conteudo{
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    .linha img{
+        width: 355px;
+    }
+}
+
+@media(max-width: 414px){
+    .acordeon{
+        width: 380px;
+    }
+
+    .acordeon .faq-imagem{
+        top: -110px;
+        left: 112px;
+    }
+
+
+    .acordeon .faq-lista .item .duvida{
+        font-size: 15.5px;
+    }
+
+    .reposta-da-duvida{
+        display: none;
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    .linha img{
+        width: 330px;
+    }
+}
+
+@media(max-width: 390px){
+    .acordeon{
+        width: 360px;
+    }
+
+    .acordeon .faq-imagem{
+        left: 101px;
+    }
+
+    .acordeon .faq-conteudo .titulo{
+        font-size: 23px;
+    }
+
+    .acordeon .faq-lista .item .duvida{
+        font-size: 15px;
+    }
+
+    .linha img{
+        width: 310px;
+    }
+}
+
+@media(max-width: 360px){
+    .acordeon{
+        width: 320px;
+    }
+
+    .acordeon .faq-imagem{
+        width: 140px;
+        top: -93px;
+        left: 90px;
+    }
+
+    .acordeon .faq-conteudo .titulo{
+        font-size: 23px;
+    }
+
+    .acordeon .faq-lista .item .duvida{
+        font-size: 13px;
+    }
+
+    .reposta-da-duvida{
+        font-size: 12px;
+    }
+
+    .linha img{
+        width: 310px;
+    }
+}
+
+@media(max-width: 350px){
+    .acordeon{
+        width: 300px;
+    }
+
+    .acordeon .faq-imagem{
+        top: -91px;
+        left: 82px;
+    }
+
+    .linha img{
+        width: 250px;
+    }
+}

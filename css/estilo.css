@@ -1,0 +1,79 @@
+html{
+    background-color: #E5E5E5;
+}
+
+.faq-pai{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.acordeon{
+    width: 655px;
+    min-height: 347px;
+    background-color: #fff;
+    box-shadow: 0px 20px 20px -10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    border-radius: 21px;
+    position: relative;
+}
+
+.acordeon .faq-imagem{
+    position: absolute;
+    left: -90px;
+}
+
+.acordeon .faq-conteudo{
+    width: 90%;
+    padding-left: 225px;
+}
+
+.acordeon .faq-conteudo .titulo{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.acordeon .faq-lista .item{
+    cursor: pointer;
+    background-image: url(../imagens/seta-fechada.png);
+    background-repeat: no-repeat;
+    background-position: top 8px right 0;
+    background-size: 12px;
+    margin: 10px 0;
+}
+
+.acordeon .faq-lista .item .duvida{
+    display: flex;
+    background-color: #fff;
+    transition: 0.5s ease-in-out;
+    margin-bottom: 15px;
+    font-size: 17px;
+    width: 90%;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.item .duvida:hover{
+    color: #f47c57;
+}
+
+.linha{
+    margin-bottom: 15px;
+}
+
+.reposta-da-duvida{
+    display: none;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.acordeon .faq-lista .item.ativo .reposta-da-duvida{
+    display: block;
+}
+
+.acordeon .faq-lista .item.ativo{
+    background-image: url(../imagens/seta-aberta.png);
+}
